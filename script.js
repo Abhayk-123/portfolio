@@ -271,6 +271,36 @@ const projectsData = [
       "Render"
     ]
   },
+   {
+    title: "StudyAgent AI",
+    type: "Generative AI Application",
+    icon: "fa-solid fa-brain",
+    description:
+      "Generative AI-powered learning assistant designed for personalized study support, intelligent response generation, and interactive problem solving using modern AI workflows and prompt engineering.",
+    tech: [
+      "Python",
+      "JavaScript",
+      "Generative AI",
+      "Prompt Engineering",
+      "REST API",
+      "GitHub"
+    ]
+  },
+
+  {
+    title: "TufRun",
+    type: "Mobile Fitness Application",
+    icon: "fa-solid fa-person-running",
+    description:
+      "React Native and Expo-based mobile application with GPS route tracking, distance and pace monitoring, Firebase authentication, run history, and leaderboard-driven competition.",
+    tech: [
+      "React Native",
+      "Expo",
+      "Firebase Auth",
+      "Firestore",
+      "GPS Tracking"
+    ]
+  },
   {
     title: "Cybersecurity Visualization Dashboard",
     type: "React + 3D Visualization",
@@ -287,24 +317,27 @@ const projectsData = [
       "Developed a currency converter using live exchange-rate APIs, reusable input components, controlled states and clean UI.",
     tech: ["React", "Custom Hooks", "API Fetch", "JavaScript", "CSS"]
   },
-  {
-    title: "Spring Boot E-Commerce Backend",
-    type: "Java Backend Project",
-    icon: "fa-solid fa-boxes-stacked",
-    description:
-      "Designed backend modules such as category APIs, controllers, service layer, validations, database integration and security planning.",
-    tech: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Validation"]
-  },
-  {
-    title: "DSA Practice & Problem Solving",
-    type: "Java Algorithms",
-    icon: "fa-solid fa-terminal",
-    description:
-      "Solved core DSA patterns including stacks, queues, tries, strings, prime sieve, sliding window, palindrome logic and complexity analysis.",
-    tech: ["Java", "Arrays", "Strings", "Stacks", "Queues", "Trie", "HashSet"]
-  }
+ 
+  
 ];
 
+const experienceData = [
+  {
+    title: "AI / 3D Developer Intern",
+    company: "Defence Institute of Advanced Technology (DIAT), Pune",
+    duration: "2025 - Present",
+    description:
+      "Developed a 3D AI-powered avatar of Dr. B. R. Ambedkar by integrating Unreal Engine 5, MetaHuman, and a Retrieval-Augmented Generation (RAG) backend for intelligent conversational interaction. Designed realistic digital humans and implemented clothing simulation using Marvelous Designer.",
+    tech: [
+      "Unreal Engine 5",
+      "MetaHuman",
+      "RAG",
+      "Python",
+      "Generative AI",
+      "Marvelous Designer"
+    ]
+  }
+];
 const studyTopics = [
   "Data Structures and Algorithms",
   "Stack, Queue, Trie, HashSet, Sliding Window",
