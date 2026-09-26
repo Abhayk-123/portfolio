@@ -252,7 +252,40 @@ const projectsData = [
       "Vector Embeddings",
       "GLB"
     ]
+  },{
+    title: "TufRun",
+    type: "Mobile Fitness Application",
+    icon: "fa-solid fa-person-running",
+    description:
+      "React Native and Expo-based mobile application with GPS route tracking, distance and pace monitoring, Firebase authentication, run history, and leaderboard-driven competition.",
+    tech: [
+      "React Native",
+      "Expo",
+      "Firebase Auth",
+      "Firestore",
+      "GPS Tracking"
+    ]
   },
+  {
+  title: "RecoverPilot — AI Failed Payment Recovery",
+  type: "Full-Stack FinTech / AI Project",
+  icon: "fa-solid fa-rotate",
+  description:
+    "Built an intelligent revenue-recovery engine for failed Razorpay payments: webhook ingest, ML recoverability scoring, policy-constrained playbook actions, job queue + worker, magic-link customer portal, KPIs, and model retrain — soft declines recover, hard declines never auto-retry.",
+  tech: [
+    "Python",
+    "FastAPI",
+    "SQLAlchemy",
+    "SQLite",
+    "scikit-learn",
+    "XGBoost",
+    "Streamlit",
+    "Razorpay Webhooks",
+    "Docker",
+    "Vercel",
+    "pytest"
+  ]
+},
   {
     title: "Skillscan — AI Resume & Interview Platform",
     type: "Full-Stack SaaS Project",
@@ -287,20 +320,7 @@ const projectsData = [
     ]
   },
 
-  {
-    title: "TufRun",
-    type: "Mobile Fitness Application",
-    icon: "fa-solid fa-person-running",
-    description:
-      "React Native and Expo-based mobile application with GPS route tracking, distance and pace monitoring, Firebase authentication, run history, and leaderboard-driven competition.",
-    tech: [
-      "React Native",
-      "Expo",
-      "Firebase Auth",
-      "Firestore",
-      "GPS Tracking"
-    ]
-  },
+  
   {
     title: "Cybersecurity Visualization Dashboard",
     type: "React + 3D Visualization",
